@@ -3,6 +3,36 @@
 <head>
   <title>Produits - SOLIVIA</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Cards style simple */
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 30px;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 250px;
+      margin: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .product-card img {
+      width: 80%;
+      margin-top: 15px;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      margin: 10px 0;
+    }
+    .product-card p {
+      padding: 0 10px 15px 10px;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
 
@@ -18,23 +48,28 @@
 </nav>
 
 <section class="products">
+
+  <!-- Card 1 -->
   <div class="product-card">
-    <img src="sac-dos-placeholder.jpg" alt="Sac à dos solaire">
+    <img src="sac-dos.jpg" alt="Sac à dos solaire">
     <h3>Sac à dos solaire</h3>
     <p>Recharge vos appareils avec style, idéal pour les déplacements.</p>
   </div>
 
+  <!-- Card 2 -->
   <div class="product-card">
-    <img src="sac-main-placeholder.jpg" alt="Sac à main solaire">
+    <img src="sac-main.jpg" alt="Sac à main solaire">
     <h3>Sac à main solaire</h3>
     <p>Design élégant et fonctionnel pour l’usage quotidien.</p>
   </div>
 
+  <!-- Card 3 (optionnel) -->
   <div class="product-card">
-    <img src="cartable-placeholder.jpg" alt="Cartable scolaire solaire">
+    <img src="cartable.jpg" alt="Cartable scolaire solaire">
     <h3>Cartable scolaire solaire</h3>
     <p>Pratique pour les étudiants, recharge partout avec énergie solaire.</p>
   </div>
+
 </section>
 
 <footer>
@@ -43,3 +78,4 @@
 
 </body>
 </html>
+
