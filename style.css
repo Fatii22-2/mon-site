@@ -126,4 +126,58 @@ footer {
   color: white;
   margin-top: 30px;
 }
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  color: #264653;
+  font-size: 30px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.hero img {
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background-color: #e4955a;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* FEATURES SECTION */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+}
+
+.feature img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  color: #264653;
+}
+
 
