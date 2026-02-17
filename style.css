@@ -1,3 +1,40 @@
+.presentation {
+  padding: 40px 20px;
+  background-color: #f5f1e8;
+  text-align: center;
+}
+
+.presentation h2 {
+  color: #264653;
+}
+
+.avantages {
+  padding: 40px 20px;
+}
+
+.avantages ul {
+  list-style: none;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+}
+
+.cta {
+  background-color: #e4955a;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cta .btn {
+  background-color: #264653;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 15px;
+}
 /* Style global */
 body {
   font-family: Arial, sans-serif;
